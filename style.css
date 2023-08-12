@@ -1,5 +1,6 @@
 *{
-    font-family: ;
+    font-family:  ;
+    
 }
 body{
     background-color: rgb(26, 26, 116);
@@ -40,8 +41,25 @@ carousel-inner::before{
     background: rgba(0,0,0.7);
     z-index: 1;
 }
-.navebar-nav a{
+.navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
+}
+.nvbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.nvbar-light .navbar-brand:focus,
+.nvbar-light .navbar-brand:hover {
+    color: #000;
+
+}
+.nvbar-light .navbar-nav .navbar-link{
+    color: #000;
 }
