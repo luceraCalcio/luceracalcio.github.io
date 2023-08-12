@@ -1,0 +1,30 @@
+*{
+    font-family: ;
+}
+body{
+    background-color: rgb(26, 26, 116);
+
+}
+
+.section-padding{
+    padding: 100PX 0;
+
+}
+.carousel-caption{
+    bottom: 22px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+   font-size: 45px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
